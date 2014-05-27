@@ -1,0 +1,250 @@
+1, 6.0, pizza
+1, 10.0, wine
+1, 7.0, idly
+1, 7.0, chicken
+1, 4.0, dosa
+1, 5.0, wada
+1, 5.0, uttapam
+1, 3.0, burger
+1, 8.0, egg
+1, 2.0, pizza, egg, wine,
+1, 3.0, egg, wada,
+1, 5.0, egg, idly, burger, dosa, wada, uttapam, omelette,
+1, 10.0, omelette, wada, idly, chicken, uttapam, wine, pizza, burger, dosa,
+1, 2.0, chicken, omelette, burger, uttapam, wine, dosa, wada,
+1, 8.0, wine, burger, omelette, dosa, wada, idly, uttapam, egg, pizza, chicken,
+1, 6.0, pizza, chicken, wine, uttapam, dosa, idly,
+1, 4.0, idly, chicken, omelette,
+1, 8.0, pizza, wine, omelette,
+1, 10.0, egg, wine, dosa, burger, uttapam, pizza, chicken,
+1, 7.0, omelette, egg, chicken,
+1, 2.0, dosa, wada, burger, idly,
+1, 5.0, wine, chicken, burger, pizza, omelette,
+1, 10.0, omelette, uttapam, wada, idly, chicken,
+1, 3.0, egg, chicken,
+1, 8.0, burger, dosa, uttapam, chicken, wada, idly, omelette, egg,
+1, 6.0, wine, burger, egg, chicken, idly, dosa,
+1, 7.0, burger, uttapam, omelette,
+2, 8.0, egg
+2, 3.0, wada
+2, 2.0, burger
+2, 6.0, pizza
+2, 2.0, chicken
+2, 2.0, uttapam
+2, 5.0, omelette
+2, 6.0, dosa
+2, 7.0, chicken, pizza, wada, idly,
+2, 7.0, dosa, uttapam,
+2, 10.0, egg, pizza, idly, wada, burger, omelette, wine, chicken, dosa, uttapam,
+2, 10.0, burger, wada, pizza, chicken,
+2, 7.0, chicken, wada, burger, wine, egg, pizza, dosa,
+2, 7.0, wada, pizza,
+2, 8.0, dosa, idly, wine, pizza, omelette, burger, uttapam, wada, chicken,
+2, 4.0, pizza, omelette, dosa, idly, chicken,
+2, 5.0, burger, dosa, egg, wine, pizza, omelette, chicken, wada, idly,
+2, 9.0, uttapam, dosa, wada,
+2, 2.0, dosa, pizza,
+2, 2.0, wine, egg, chicken, idly, burger, dosa, omelette, uttapam,
+2, 9.0, burger, chicken, wada, pizza, idly, uttapam, egg, dosa, omelette,
+2, 3.0, idly, omelette, chicken, burger, egg, pizza, uttapam,
+2, 8.0, idly, omelette, wada,
+2, 6.0, omelette, idly, wine, uttapam, egg, pizza,
+3, 10.0, wada
+3, 3.0, pizza
+3, 2.0, chicken
+3, 5.0, omelette
+3, 2.0, uttapam
+3, 4.0, idly
+3, 5.0, burger
+3, 4.0, egg, idly, pizza, uttapam, dosa, burger, wine, wada,
+3, 7.0, burger, egg, wine, omelette,
+3, 5.0, egg, omelette, wine, pizza, uttapam, chicken,
+3, 3.0, idly, omelette,
+3, 5.0, chicken, burger,
+3, 10.0, wada, uttapam, egg, dosa, idly, burger, wine, pizza, chicken,
+3, 7.0, wada, wine, uttapam, pizza, omelette, dosa, chicken,
+3, 10.0, omelette, wine, egg, chicken, dosa, burger,
+3, 6.0, omelette, idly, wada, egg, chicken, uttapam,
+3, 9.0, uttapam, wine, wada, egg, burger, dosa, omelette,
+3, 4.0, chicken, idly, dosa, burger, wada, pizza, uttapam, egg, omelette, wine,
+3, 7.0, wada, idly, chicken, wine,
+3, 5.0, dosa, egg, wada, wine, uttapam, chicken, omelette, burger, pizza,
+3, 10.0, uttapam, egg, omelette, wada,
+3, 4.0, pizza, wada, dosa, uttapam, omelette,
+4, 3.0, wine
+4, 8.0, dosa
+4, 7.0, chicken
+4, 5.0, idly
+4, 7.0, uttapam
+4, 6.0, burger
+4, 5.0, egg
+4, 10.0, omelette
+4, 3.0, wada
+4, 4.0, pizza
+4, 8.0, chicken, wine, dosa,
+4, 5.0, egg, burger,
+4, 9.0, egg, dosa, omelette, wada, wine, chicken, idly, uttapam, pizza, burger,
+4, 9.0, dosa, uttapam, wada, omelette, idly, burger, egg, pizza, wine,
+4, 2.0, dosa, wada, chicken,
+4, 2.0, idly, egg, wada, dosa, chicken, pizza,
+4, 5.0, egg, dosa, idly, burger, pizza,
+4, 2.0, egg, idly, burger, dosa, chicken, uttapam, wine, pizza,
+4, 7.0, dosa, uttapam, pizza, omelette, wine, chicken, burger, wada, egg,
+4, 2.0, pizza, egg, dosa,
+5, 9.0, dosa
+5, 3.0, burger
+5, 8.0, chicken
+5, 10.0, pizza
+5, 9.0, omelette
+5, 3.0, egg
+5, 6.0, wine
+5, 5.0, idly
+5, 7.0, wada
+5, 5.0, wine, egg, burger, pizza, dosa, wada,
+5, 10.0, dosa, egg, pizza, omelette, burger, idly, uttapam, wada,
+5, 8.0, wada, dosa, wine, omelette, burger, chicken, pizza, uttapam, egg, idly,
+5, 2.0, uttapam, wada, chicken,
+5, 2.0, pizza, omelette, wada, dosa, uttapam, idly, burger,
+5, 3.0, wada, omelette, dosa, chicken, uttapam, idly,
+5, 6.0, burger, wada, omelette, pizza, uttapam, idly, egg, chicken, dosa,
+5, 3.0, omelette, dosa,
+5, 10.0, idly, pizza, uttapam, chicken, egg, dosa, omelette, burger,
+5, 5.0, egg, dosa, burger, pizza, wine, omelette, idly,
+5, 7.0, pizza, wada, omelette, uttapam, egg, chicken, dosa, idly,
+5, 2.0, burger, egg, omelette,
+5, 2.0, chicken, pizza, egg, dosa, omelette, uttapam, wine, wada, burger,
+5, 7.0, uttapam, omelette, dosa,
+5, 4.0, idly, uttapam, burger, egg,
+5, 9.0, burger, wada, omelette, pizza, wine,
+5, 10.0, idly, pizza, wada, uttapam,
+5, 6.0, egg, pizza, burger, dosa,
+5, 4.0, pizza, chicken, uttapam,
+6, 7.0, chicken
+6, 6.0, egg
+6, 10.0, dosa
+6, 3.0, wada
+6, 9.0, burger
+6, 6.0, omelette
+6, 9.0, uttapam
+6, 2.0, omelette, idly, chicken,
+6, 3.0, dosa, idly, uttapam,
+6, 2.0, burger, chicken, wine,
+6, 5.0, uttapam, dosa, idly, chicken, wada, burger, wine,
+6, 8.0, burger, uttapam, pizza, omelette, dosa, idly, wine, wada, chicken, egg,
+6, 5.0, wine, idly, wada,
+6, 7.0, burger, wine, egg, pizza,
+6, 6.0, omelette, wada, dosa, burger, idly, chicken,
+6, 2.0, idly, pizza, omelette,
+6, 9.0, dosa, uttapam, chicken,
+6, 3.0, wada, omelette,
+6, 5.0, egg, wine, dosa, uttapam, wada, chicken, idly,
+6, 8.0, chicken, uttapam, idly,
+6, 7.0, idly, pizza, egg, dosa, uttapam, omelette, wada, chicken,
+7, 2.0, burger
+7, 10.0, egg
+7, 10.0, wine
+7, 4.0, dosa
+7, 9.0, pizza
+7, 3.0, idly
+7, 10.0, uttapam
+7, 2.0, chicken
+7, 7.0, omelette
+7, 3.0, uttapam, idly, dosa, chicken, wada, omelette, egg, burger,
+7, 4.0, wada, omelette, pizza, chicken, burger, egg, idly, dosa,
+7, 4.0, pizza, uttapam,
+7, 3.0, egg, idly, burger,
+7, 5.0, chicken, wada, burger, uttapam, wine, pizza, dosa,
+7, 10.0, pizza, idly, wada, egg, omelette, uttapam,
+7, 2.0, idly, dosa,
+7, 5.0, egg, idly, pizza,
+7, 6.0, dosa, chicken,
+7, 4.0, omelette, pizza,
+7, 7.0, egg, wine, omelette, burger, wada, uttapam, chicken, idly, dosa, pizza,
+7, 3.0, wine, burger, egg, wada, uttapam, pizza, chicken,
+7, 7.0, pizza, omelette, burger,
+7, 2.0, idly, omelette, burger, egg, pizza, chicken, uttapam, wada,
+7, 10.0, chicken, omelette, idly, pizza,
+7, 10.0, omelette, burger, egg, wine, wada, pizza, chicken, idly, uttapam,
+7, 10.0, idly, egg, omelette, dosa, uttapam, wine, burger,
+7, 7.0, wada, uttapam, omelette, pizza, chicken,
+7, 6.0, dosa, chicken, wada, burger, pizza, omelette,
+7, 8.0, wine, egg, uttapam, idly, pizza, wada, burger,
+8, 8.0, wada
+8, 10.0, uttapam
+8, 2.0, idly
+8, 10.0, wine
+8, 8.0, dosa
+8, 9.0, burger
+8, 4.0, chicken
+8, 10.0, omelette
+8, 7.0, egg
+8, 5.0, chicken, uttapam, dosa,
+8, 2.0, dosa, chicken, egg, wada,
+8, 5.0, wine, uttapam, wada, chicken, omelette, pizza, dosa, burger, egg,
+8, 9.0, omelette, wine, burger, pizza,
+8, 6.0, chicken, wine, pizza, uttapam, idly, burger,
+8, 9.0, chicken, wada, omelette, pizza, burger, dosa, idly, uttapam, egg,
+8, 8.0, idly, egg, pizza, burger, dosa, omelette, uttapam, wada, wine,
+8, 6.0, dosa, egg, wine, idly, uttapam, wada,
+8, 7.0, dosa, chicken,
+8, 2.0, wada, uttapam, dosa, egg, pizza, wine,
+8, 4.0, dosa, egg,
+8, 4.0, dosa, egg, wada, omelette, uttapam, pizza,
+8, 10.0, chicken, burger, dosa,
+8, 3.0, wine, burger,
+8, 4.0, wada, uttapam, burger, omelette, idly,
+8, 6.0, uttapam, wine, dosa, egg, wada, burger, pizza, idly, chicken,
+8, 6.0, uttapam, wine,
+8, 7.0, wine, wada, egg, dosa, chicken,
+8, 3.0, idly, dosa, chicken, wine, wada, egg, omelette, uttapam, pizza,
+8, 10.0, pizza, idly, burger,
+8, 9.0, pizza, dosa,
+9, 10.0, omelette
+9, 6.0, wada
+9, 2.0, egg
+9, 7.0, dosa
+9, 9.0, idly
+9, 3.0, burger
+9, 8.0, pizza
+9, 6.0, wine
+9, 6.0, burger, chicken,
+9, 4.0, idly, wine, egg,
+9, 10.0, burger, chicken, dosa, wada,
+9, 3.0, idly, uttapam, burger, wine, wada,
+9, 5.0, burger, wada, omelette, dosa,
+9, 7.0, idly, burger, uttapam, pizza,
+9, 2.0, chicken, dosa, pizza, omelette, burger, wine, egg, idly, uttapam,
+9, 3.0, dosa, pizza,
+9, 10.0, burger, wine, uttapam, pizza, egg, omelette, wada, dosa,
+9, 2.0, wada, uttapam, dosa, chicken, pizza,
+9, 6.0, egg, dosa, burger, wada, idly, chicken, wine, omelette, uttapam,
+9, 9.0, burger, chicken, wine, pizza, egg, wada, uttapam, idly,
+9, 2.0, idly, pizza, omelette, wine, egg, wada,
+9, 6.0, chicken, burger, uttapam, idly,
+9, 4.0, wada, chicken, wine, omelette, egg, burger, idly,
+9, 3.0, pizza, omelette, uttapam,
+10, 7.0, idly
+10, 4.0, uttapam
+10, 3.0, chicken
+10, 3.0, egg
+10, 2.0, wine
+10, 5.0, pizza
+10, 9.0, omelette
+10, 3.0, pizza, chicken, egg, omelette, uttapam, burger, wine, dosa, idly, wada,
+10, 2.0, idly, omelette,
+10, 7.0, idly, burger, omelette, dosa, egg, wada,
+10, 2.0, uttapam, wine, chicken, dosa, egg, wada, idly, omelette, burger,
+10, 4.0, wada, pizza, idly,
+10, 3.0, wada, dosa, uttapam, idly,
+10, 3.0, egg, wada,
+10, 4.0, pizza, uttapam, omelette, wine, wada, burger, chicken,
+10, 8.0, uttapam, pizza, wine, idly, omelette, wada, burger, egg, chicken,
+10, 2.0, dosa, chicken,
+10, 6.0, idly, egg, omelette, dosa, uttapam, pizza, wada,
+10, 6.0, chicken, pizza, egg, wada, burger, wine, uttapam, omelette,
+10, 8.0, egg, wine, uttapam, burger, dosa,
+10, 8.0, idly, dosa, uttapam, wada, chicken, egg, omelette,
+10, 4.0, omelette, pizza, chicken, wine, wada,
+10, 5.0, chicken, wine, burger, egg, pizza,
+10, 2.0, wine, idly, burger,
+10, 10.0, wine, chicken, pizza, uttapam, burger, dosa, wada, idly, egg,

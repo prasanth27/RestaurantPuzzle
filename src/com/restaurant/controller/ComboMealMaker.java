@@ -62,10 +62,13 @@ public class ComboMealMaker {
 						Meal meal = menu.get(pos);
 						hotelId= meal.getHotelID();
 						price += meal.getPrice();
-						Iterator< Integer> itr = indicesRemaining.iterator();
-						while(itr.hasNext()){
-							if(meal.containsItem(searchItems.get(itr.next()))){
-								itr.remove();
+						
+						if (indicesRemaining.size() > 0){
+							Iterator< Integer> itr = indicesRemaining.iterator();
+							while(itr.hasNext()){
+								if(meal.containsItem(searchItems.get(itr.next()))){
+									itr.remove();
+								}
 							}
 						}
 				    }

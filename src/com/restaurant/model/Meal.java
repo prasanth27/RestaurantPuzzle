@@ -50,7 +50,7 @@ public class Meal {
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
-		return items.hashCode()+hotelID;
+		return items.hashCode()+hotelID+price.hashCode();
 	}
 	
 	@Override
@@ -58,7 +58,7 @@ public class Meal {
 		// TODO Auto-generated method stub
 		if(arg0 instanceof Meal){
 			Meal meal = (Meal)arg0;
-			return (meal.getItems().equals(this.items) && meal.getHotelID() ==  this.hotelID);
+			return ( (meal.getItems().equals(this.items)) && (meal.getHotelID() == this.hotelID)&& (meal.getPrice().equals(this.getPrice())));
 		}
 		return false;
 	}
