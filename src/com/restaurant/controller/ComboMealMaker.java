@@ -47,8 +47,6 @@ public class ComboMealMaker {
 			 int pos = menu.size() - 1;
 			 int bitmask = i;
 			 
-			   boolean [] itemsFound = new boolean [searchItems.size()];
-			   
 			   List<Integer> indicesRemaining = new ArrayList<Integer>(searchItems.size());
 			   for(int j =0 ; j<searchItems.size();j++ ){
 				   indicesRemaining.add(j);
