@@ -48,7 +48,12 @@ public class ComboMealMaker {
 			 int bitmask = i;
 			 
 			   boolean [] itemsFound = new boolean [searchItems.size()];
-			   int matches = 0;
+			   
+			   List<Integer> indicesRemaining = new ArrayList<Integer>(searchItems.size());
+			   for(int j =0 ; j<searchItems.size();j++ ){
+				   indicesRemaining.add(j);
+			   }
+			   
 			   float price = 0;
 			   int hotelId = 0;
 			   
@@ -57,11 +62,10 @@ public class ComboMealMaker {
 						Meal meal = menu.get(pos);
 						hotelId= meal.getHotelID();
 						price += meal.getPrice();
-						for(int j=0 ;  j < searchItems.size() && matches<searchItems.size(); j++){
-							if( (!itemsFound[j]) &&
-									(meal.containsItem(searchItems.get(j)))){
-										itemsFound[j] = true;
-										matches++;
+						Iterator< Integer> itr = indicesRemaining.iterator();
+						while(itr.hasNext()){
+							if(meal.containsItem(searchItems.get(itr.next()))){
+								itr.remove();
 							}
 						}
 				    }
@@ -69,7 +73,7 @@ public class ComboMealMaker {
 				    pos--;
 			   }
 			 
-			   if(matches == searchItems.size() && price < minPrice){
+			   if(indicesRemaining.size() == 0 && price < minPrice){
 				   minPrice = price;
 				   minId = hotelId;
 			   }
