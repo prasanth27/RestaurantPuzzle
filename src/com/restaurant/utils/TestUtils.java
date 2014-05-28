@@ -68,13 +68,13 @@ public class TestUtils {
 		// TODO Auto-generated method stub
 		
 		//Small Files
-		/*testCase1();
-		testCase2();
-		testCase3();
-		testCase4();
-		*/
+		//testCase1();
+		//testCase2();
+		//testCase3();
+		//testCase4();
+		
 		// Big Files
-		//testCaseBig1();
+		testCaseBig1();
 		testCaseBig2();
 	}
 	
