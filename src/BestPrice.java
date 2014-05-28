@@ -20,10 +20,11 @@ public class BestPrice{
 		List<String> input = new ArrayList<String>(Arrays.asList(args));
 		int inputLength = input.size();
 		if(inputLength < 2){
-			Logger.log("Invalid Input");
+			System.out.println("Please check input");
 			return ;
 		}
 		String fileName = input.remove(0);
-		BestPriceController.execute(fileName, input);
+		String result = BestPriceController.execute(fileName, input);
+		System.out.println(result);
 	}
 }
