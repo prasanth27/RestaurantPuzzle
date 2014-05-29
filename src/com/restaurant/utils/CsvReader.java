@@ -10,6 +10,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.restaurant.controller.MealMaker;
+
 public class CsvReader {
 	/**
 	 * Reads file and returns Strings which contain any of the KeyWords.
@@ -17,9 +19,8 @@ public class CsvReader {
 	 * @param keyWords
 	 * @return Map of hotel vs Items
 	 */
-	public static  List<String> parseFileFilterInput(String fileName , List<String> keyWords ){
+	public static  void parseFileFilterInput(String fileName , List<String> keyWords, MealMaker m ){
 		
-	  List<String> relatedItems =   new ArrayList<String>();
 		File file = new File(fileName);
 		FileInputStream fstream;
 		
@@ -29,15 +30,13 @@ public class CsvReader {
 			String strLine;
 			while ((strLine = br.readLine()) != null)   {
 			  if(isContainsSerchItem(strLine, keyWords)){
-				  populateMapWithSearchItems(relatedItems ,strLine);
+				  populateMapWithSearchItems(strLine,m);
 			  }
 			}
 			br.close();
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
 		}
-		return relatedItems;
 	}
 	
 	
@@ -54,8 +53,8 @@ public class CsvReader {
 	 * Populates the map with items in the Search Query.
 	 * @param relatedItems
 	 */
-	public static void populateMapWithSearchItems( List<String> relatedItems , String strLine){
-		relatedItems.add(strLine);
+	public static void populateMapWithSearchItems( String strLine,MealMaker m){
+		m.createMenuFromInputs(strLine);
 	}
 	
 }

@@ -63,19 +63,28 @@ public class TestUtils {
 		execute(fileName,input,expected);
 	}
 	
+	public  void testCaseBig3(){
+		String fileName = "jurgensville_testcase_26638.csv";
+		List<String> input = Arrays.asList(new String[]{"uttapam","puri","chicken"});
+		String expected = "2, 2.0";
+		
+		execute(fileName,input,expected);
+	}
+	
 	@Test
 	public  void  test() {
 		// TODO Auto-generated method stub
 		
 		//Small Files
-		//testCase1();
+		testCase1();
 		//testCase2();
 		//testCase3();
 		//testCase4();
 		
 		// Big Files
-		testCaseBig1();
-		testCaseBig2();
+		//testCaseBig1();
+		//testCaseBig2();
+		//testCaseBig3();
 	}
 	
 	public static void execute( String fileName, List<String> input, String expected){

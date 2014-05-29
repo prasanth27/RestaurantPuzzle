@@ -1,0 +1,171 @@
+1, 5.0, chicken
+1, 2.0, dosa
+1, 8.0, fish
+1, 2.0, omelette
+1, 7.0, uttapam
+1, 6.0, rissotto
+1, 7.0, uttapam, dosa, puri, omelette, fish, chicken,
+1, 6.0, chicken, omelette, fish, puri, uttapam,
+1, 5.0, chicken, dosa, puri, omelette, uttapam, rissotto, fish,
+1, 8.0, puri, dosa, fish, uttapam, rissotto,
+1, 5.0, dosa, fish, omelette,
+1, 3.0, dosa, uttapam,
+1, 5.0, omelette, chicken,
+1, 8.0, chicken, uttapam, rissotto, omelette,
+1, 5.0, fish, chicken, uttapam, omelette,
+1, 6.0, puri, dosa, fish, chicken,
+2, 3.0, omelette
+2, 9.0, rissotto
+2, 10.0, dosa
+2, 5.0, puri
+2, 8.0, chicken
+2, 2.0, fish, chicken, puri,
+2, 3.0, puri, fish,
+2, 3.0, chicken, puri, rissotto,
+2, 2.0, dosa, fish, chicken, puri, uttapam, rissotto, omelette,
+2, 2.0, puri, rissotto,
+2, 7.0, rissotto, uttapam, chicken, puri,
+3, 3.0, puri
+3, 9.0, fish
+3, 2.0, rissotto
+3, 10.0, omelette
+3, 2.0, uttapam
+3, 4.0, chicken
+3, 4.0, dosa
+3, 2.0, chicken, uttapam, omelette, puri,
+3, 5.0, dosa, fish, chicken, uttapam, omelette, puri, rissotto,
+3, 7.0, dosa, uttapam, omelette,
+3, 6.0, uttapam, rissotto, dosa, fish, chicken,
+3, 5.0, dosa, chicken, omelette, fish, rissotto,
+3, 3.0, uttapam, chicken,
+3, 4.0, dosa, uttapam, fish, puri,
+3, 7.0, dosa, puri,
+3, 8.0, puri, dosa, chicken, uttapam,
+3, 4.0, rissotto, omelette, fish, uttapam, chicken,
+3, 7.0, rissotto, omelette, puri, dosa, uttapam, fish,
+3, 3.0, dosa, chicken, puri, fish, uttapam,
+3, 8.0, omelette, fish,
+3, 5.0, omelette, rissotto, uttapam, chicken, fish, puri,
+4, 6.0, dosa
+4, 6.0, fish
+4, 9.0, puri
+4, 5.0, chicken
+4, 7.0, uttapam
+4, 9.0, rissotto
+4, 10.0, omelette, uttapam, dosa, puri, rissotto, fish,
+4, 8.0, rissotto, uttapam, puri, dosa,
+4, 10.0, puri, omelette, fish,
+4, 10.0, rissotto, uttapam, omelette, dosa,
+4, 3.0, uttapam, fish, puri,
+4, 2.0, fish, rissotto,
+4, 3.0, puri, chicken, rissotto, omelette, dosa, uttapam,
+4, 6.0, omelette, puri, fish, chicken, uttapam, dosa, rissotto,
+4, 9.0, chicken, dosa,
+4, 2.0, uttapam, rissotto, fish, omelette,
+5, 3.0, rissotto
+5, 6.0, uttapam
+5, 4.0, omelette
+5, 3.0, dosa
+5, 9.0, fish
+5, 3.0, puri
+5, 6.0, fish, omelette, uttapam, dosa, puri,
+5, 6.0, rissotto, puri, omelette,
+5, 9.0, puri, uttapam, fish, chicken,
+5, 6.0, omelette, puri, fish,
+5, 4.0, puri, rissotto, omelette, uttapam, dosa, chicken, fish,
+5, 8.0, omelette, rissotto, puri, dosa, chicken,
+5, 10.0, rissotto, dosa, puri, fish, uttapam, omelette,
+5, 5.0, rissotto, chicken, fish, puri, uttapam,
+6, 8.0, uttapam
+6, 2.0, chicken
+6, 2.0, fish
+6, 2.0, dosa
+6, 5.0, puri
+6, 5.0, rissotto
+6, 3.0, dosa, rissotto, uttapam, puri, omelette, fish,
+6, 4.0, chicken, omelette, fish, rissotto,
+6, 7.0, chicken, dosa, omelette,
+6, 5.0, fish, omelette, puri, uttapam, dosa,
+6, 6.0, omelette, rissotto, uttapam,
+6, 10.0, fish, omelette, puri, rissotto,
+6, 7.0, fish, chicken, rissotto,
+6, 8.0, dosa, omelette, uttapam,
+6, 4.0, omelette, uttapam, fish, puri, rissotto,
+6, 9.0, dosa, chicken, rissotto, omelette, puri, fish,
+6, 9.0, rissotto, omelette,
+6, 9.0, puri, dosa, chicken, uttapam, rissotto,
+6, 4.0, uttapam, rissotto, omelette, chicken, puri, fish,
+6, 8.0, chicken, rissotto, dosa,
+6, 2.0, rissotto, dosa, fish,
+7, 6.0, fish
+7, 10.0, uttapam
+7, 6.0, chicken
+7, 9.0, puri
+7, 5.0, omelette
+7, 10.0, rissotto
+7, 10.0, dosa
+7, 4.0, puri, rissotto, fish, chicken, omelette, dosa, uttapam,
+7, 7.0, omelette, fish,
+7, 2.0, dosa, chicken, omelette,
+7, 7.0, puri, chicken, uttapam, fish, omelette, rissotto,
+7, 10.0, uttapam, puri, omelette,
+7, 2.0, rissotto, fish, dosa, uttapam, puri,
+7, 9.0, rissotto, uttapam, dosa,
+7, 2.0, omelette, uttapam,
+7, 2.0, dosa, uttapam, omelette, chicken,
+7, 9.0, chicken, rissotto, puri, fish, uttapam,
+8, 3.0, rissotto
+8, 9.0, fish
+8, 5.0, puri
+8, 8.0, omelette
+8, 5.0, omelette, chicken, fish, puri, uttapam,
+8, 9.0, puri, dosa, rissotto, uttapam, omelette, chicken,
+8, 6.0, chicken, omelette, puri,
+8, 8.0, puri, uttapam, fish, omelette, rissotto, dosa, chicken,
+8, 3.0, omelette, fish, dosa,
+8, 8.0, uttapam, fish,
+8, 8.0, uttapam, rissotto, dosa, fish, omelette, puri,
+8, 6.0, rissotto, omelette, chicken, puri,
+8, 6.0, dosa, puri, fish, rissotto, chicken, uttapam,
+8, 6.0, dosa, omelette, rissotto,
+8, 8.0, chicken, uttapam, dosa, omelette, puri,
+8, 7.0, chicken, dosa, uttapam, fish,
+8, 9.0, chicken, dosa, omelette,
+8, 10.0, rissotto, puri, chicken, fish,
+8, 7.0, puri, dosa,
+9, 2.0, omelette
+9, 8.0, puri
+9, 3.0, uttapam
+9, 2.0, fish
+9, 7.0, chicken
+9, 5.0, rissotto
+9, 2.0, dosa
+9, 6.0, dosa, puri, uttapam, omelette, chicken,
+9, 9.0, dosa, omelette, uttapam,
+9, 6.0, fish, omelette, dosa,
+9, 10.0, omelette, uttapam, chicken, rissotto, fish, dosa,
+9, 3.0, fish, puri, rissotto, dosa,
+9, 2.0, rissotto, fish, omelette, chicken, puri,
+9, 6.0, chicken, uttapam,
+9, 6.0, omelette, dosa,
+9, 2.0, rissotto, puri, dosa, uttapam, fish, omelette, chicken,
+9, 9.0, puri, omelette, rissotto, chicken,
+9, 6.0, uttapam, puri, rissotto, chicken, dosa, omelette,
+9, 8.0, puri, rissotto, chicken,
+10, 4.0, dosa
+10, 8.0, rissotto
+10, 5.0, puri
+10, 9.0, omelette
+10, 2.0, uttapam
+10, 9.0, fish
+10, 6.0, chicken
+10, 7.0, dosa, fish,
+10, 9.0, fish, chicken, puri, dosa, omelette, uttapam,
+10, 3.0, uttapam, rissotto, dosa, fish,
+10, 2.0, rissotto, fish, puri, chicken, uttapam, dosa, omelette,
+10, 7.0, chicken, uttapam,
+10, 4.0, puri, rissotto, dosa, chicken, uttapam, fish,
+10, 4.0, puri, uttapam,
+10, 6.0, rissotto, chicken, omelette,
+10, 3.0, rissotto, chicken, omelette, uttapam, dosa, puri,
+10, 6.0, puri, omelette, rissotto,

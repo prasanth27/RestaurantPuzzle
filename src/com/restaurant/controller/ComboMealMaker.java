@@ -1,7 +1,9 @@
 package com.restaurant.controller;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -12,7 +14,7 @@ import com.restaurant.model.Meal;
 public class ComboMealMaker {
 	
 	private  List<String> searchItems; 
-	private ConcurrentHashMap<Integer, Float> hotelPrices ;
+	private HashMap<Integer, Float> hotelPrices ;
 	
 	private class HotelMinPriceChecker implements Runnable {
 	
@@ -27,21 +29,25 @@ public class ComboMealMaker {
 			this.hotelId = hotelId;
 		}
 		
+		
+		
 		public void run()  {
 			int numOfCombos = 1 << menu.size(); 
 			//System.out.println("hotel ="+Thread.currentThread().getName() + " Matching Items found = "+ menu.size()+" total combinations = "+numOfCombos);
-			 for(int i = 0; i < numOfCombos; i++) {
-				   
+			LinkedList<Integer> indicesRemaining = new LinkedList<Integer>();
+			  for(int j =0 ; j<searchItems.size();j++ ){
+				   indicesRemaining.add(j);
+			   }
+			   
+			  
+			for(int i = 0; i < numOfCombos; i++) {
+				
 				 int pos = menu.size() - 1;
 				 int bitmask = i;
-				 
-				   List<Integer> indicesRemaining = new ArrayList<Integer>(searchItems.size());
-				   for(int j =0 ; j<searchItems.size();j++ ){
-					   indicesRemaining.add(j);
-				   }
-				   
-				   
+				 	 
 				   float price = 0;
+				   LinkedList<Integer> indicesRemoved = new LinkedList<Integer>();
+				   
 				   while(bitmask > 0)	 {
 						if((bitmask & 1) == 1){
 							Meal meal = menu.get(pos);
@@ -50,8 +56,10 @@ public class ComboMealMaker {
 							if (indicesRemaining.size() > 0){
 								Iterator< Integer> itr = indicesRemaining.iterator();
 								while(itr.hasNext()){
-									if(meal.containsItem(searchItems.get(itr.next()))){
+									Integer a = itr.next();
+									if(meal.containsItem(searchItems.get(a))){
 										itr.remove();
+										indicesRemoved.add(a);
 									}
 								}
 							}
@@ -65,6 +73,12 @@ public class ComboMealMaker {
 					   isItemFound =true;
 				   }
 				   
+				   if(indicesRemaining.size() < indicesRemoved.size()){
+					   indicesRemoved.addAll(indicesRemaining);
+					   indicesRemaining = indicesRemoved;
+				   }else{
+					   	indicesRemaining.addAll(indicesRemoved);
+				   }
 			 }
 			 
 			 if(isItemFound){
@@ -77,7 +91,7 @@ public class ComboMealMaker {
 	public String getBestDeal(Map <Integer, Set<Meal>> hotelVsMealMap , List<String> sItems){
 		String result = "Nil";
 		this.searchItems = sItems;
-		this.hotelPrices = new  ConcurrentHashMap<Integer, Float>(sItems.size());
+		this.hotelPrices = new  HashMap<Integer, Float>(sItems.size());
 		
 		Thread workerThreads[] = new Thread[hotelVsMealMap.size()];
 		Iterator<Integer> itr = hotelVsMealMap.keySet().iterator();

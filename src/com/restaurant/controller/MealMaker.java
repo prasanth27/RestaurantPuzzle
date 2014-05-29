@@ -10,15 +10,14 @@ import com.restaurant.model.Meal;
 
 public class MealMaker {
 	
+	private Map <Integer, Set<Meal>> hotelMenu = new HashMap<Integer, Set<Meal>>() ;
 	/**
 	 *  Parse inputs and make Menu
 	 * @param keyWords
 	 * @return Menu Map
 	 */
-	public static Map <Integer, Set<Meal>> createMenuFromInputs(List<String> keyWords){
-		Map <Integer, Set<Meal>> hotelMenu = new HashMap<Integer, Set<Meal>>() ;
-		for(String item : keyWords){
-			String[] items  = item.split(",");
+	public void createMenuFromInputs(String keyWord){
+			String[] items  = keyWord.split(",");
 			Meal meal = splitStringToMakeMeal(items);
 			
 			Integer hotelID = new Integer(items[0]);
@@ -30,10 +29,11 @@ public class MealMaker {
 				dishes.add(meal);
 				hotelMenu.put(hotelID, dishes);
 			}
-		}
-		return hotelMenu;
 	}
 	
+	public Map <Integer, Set<Meal>> getHotelMenus(){
+		return hotelMenu;
+	}
 	private static Meal splitStringToMakeMeal(String[] items){
 		Meal m = new Meal();
 		for(int i=0;i<items.length;i++){
