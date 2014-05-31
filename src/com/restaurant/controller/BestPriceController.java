@@ -16,7 +16,7 @@ public class BestPriceController {
  */
 	public static String execute(String fileName, List<String> searchItems){
 		// Filter Items based on search criteria
-		 MealMaker m = new MealMaker();	
+		 MealMaker m = new MealMaker(searchItems);	
 		 CsvReader.parseFileFilterInput(fileName, searchItems,m);
 		
 		// Create HotelWise Menu of Meals
@@ -24,7 +24,9 @@ public class BestPriceController {
 		
 		// Make Combo Items and Select the Best Meal
 		ComboMealMaker cb = new ComboMealMaker();
-		String bestDeal = cb.getBestDeal(hotelVsMealMap, searchItems) ;
+		String bestDeal = cb.getBestDeal(hotelVsMealMap, searchItems,m.getItemsInHotel()) ;
+		
+		// Return the Best Deal
 		return bestDeal;
 		
 	}

@@ -1,0 +1,247 @@
+1, 6.0, omelette
+1, 7.0, beer
+1, 5.0, dosa
+1, 7.0, uttapam
+1, 6.0, fish
+1, 2.0, egg
+1, 7.0, wine
+1, 9.0, idly
+1, 4.0, burger
+1, 5.0, fish, dosa, beer, idly, puri, egg, wine, uttapam,
+1, 10.0, uttapam, egg, fish, wine, puri, dosa, beer, burger, omelette, idly,
+1, 6.0, egg, puri, uttapam, fish, dosa, wine,
+1, 10.0, egg, fish, idly, beer, burger, uttapam, puri, dosa,
+1, 10.0, puri, egg, burger, omelette, uttapam, beer,
+1, 7.0, uttapam, beer,
+1, 6.0, beer, puri,
+1, 2.0, wine, idly, fish, puri, burger, egg, beer, uttapam,
+1, 7.0, dosa, omelette, beer, burger, puri, idly, uttapam, egg,
+1, 2.0, wine, beer, uttapam, dosa, burger, omelette,
+2, 8.0, burger
+2, 9.0, omelette
+2, 3.0, dosa
+2, 9.0, uttapam
+2, 4.0, puri
+2, 10.0, idly
+2, 3.0, beer
+2, 10.0, fish
+2, 9.0, idly, beer, omelette, fish, burger, wine, dosa, puri, uttapam, egg,
+2, 10.0, omelette, wine,
+2, 10.0, puri, uttapam,
+2, 8.0, idly, puri, egg, burger, omelette, beer, wine, uttapam,
+2, 5.0, idly, fish,
+2, 9.0, wine, egg, beer, fish, dosa, uttapam, puri, burger,
+2, 6.0, beer, idly, omelette, egg, fish,
+2, 8.0, omelette, wine, puri, dosa, uttapam,
+2, 6.0, idly, puri, fish, dosa, beer, wine,
+2, 7.0, burger, puri,
+2, 8.0, beer, fish, egg, burger,
+2, 2.0, idly, puri, uttapam, egg, wine,
+2, 3.0, uttapam, beer, omelette, egg, fish,
+2, 4.0, omelette, puri, dosa, beer, idly,
+2, 10.0, idly, wine, fish, dosa, omelette, burger, egg,
+2, 10.0, dosa, fish, uttapam, omelette, burger, beer, idly, egg, wine,
+2, 2.0, fish, beer, wine, burger, puri, egg, idly, dosa,
+3, 9.0, puri
+3, 9.0, wine
+3, 4.0, idly
+3, 5.0, egg
+3, 2.0, beer
+3, 10.0, dosa
+3, 10.0, uttapam
+3, 2.0, fish
+3, 3.0, burger
+3, 4.0, omelette
+3, 10.0, egg, idly, dosa, fish, beer, wine,
+3, 10.0, egg, burger, uttapam, beer, wine, puri, dosa, omelette, idly,
+3, 6.0, wine, burger, uttapam,
+3, 3.0, beer, fish, omelette, burger, uttapam, wine, puri, dosa, egg, idly,
+3, 8.0, dosa, puri, fish, beer, omelette, uttapam, idly,
+3, 9.0, wine, omelette,
+3, 9.0, puri, uttapam, fish, omelette, egg, idly, beer, burger,
+3, 7.0, beer, egg, idly,
+3, 2.0, wine, uttapam, omelette, idly, puri, dosa, fish, beer,
+3, 8.0, uttapam, puri,
+3, 6.0, burger, omelette, egg, fish, idly, dosa, wine, beer,
+3, 2.0, fish, dosa, wine, idly, egg, omelette, uttapam, burger,
+3, 4.0, uttapam, puri, fish, burger,
+3, 2.0, egg, burger, dosa, wine, puri, idly, uttapam, omelette,
+3, 9.0, wine, dosa, uttapam, burger, beer, puri, egg,
+3, 9.0, egg, idly, burger, dosa, puri, omelette,
+3, 5.0, omelette, puri,
+3, 9.0, burger, beer, idly, wine, uttapam, egg, omelette,
+3, 10.0, idly, uttapam, burger, wine, dosa, omelette, beer,
+3, 10.0, dosa, fish, wine,
+4, 3.0, burger
+4, 9.0, omelette
+4, 6.0, puri
+4, 8.0, wine
+4, 7.0, beer
+4, 3.0, dosa
+4, 9.0, fish
+4, 4.0, idly
+4, 4.0, uttapam, idly, wine, beer, egg, omelette, dosa, burger, puri, fish,
+4, 7.0, omelette, fish, idly, burger, dosa,
+4, 10.0, burger, wine, beer, idly, fish, omelette, egg, puri,
+4, 5.0, beer, egg, fish, puri, dosa, omelette,
+4, 9.0, omelette, beer, egg, idly, burger, uttapam, puri, fish,
+4, 7.0, beer, puri, egg, omelette,
+4, 9.0, beer, wine, dosa, omelette, uttapam, idly,
+4, 8.0, omelette, dosa, puri, fish, burger, idly, uttapam, beer, wine,
+4, 7.0, wine, uttapam, fish, burger, idly, dosa, beer, egg,
+4, 4.0, wine, omelette,
+4, 8.0, beer, fish, omelette, uttapam, puri, egg,
+4, 9.0, fish, beer, idly, dosa,
+5, 2.0, uttapam
+5, 8.0, burger
+5, 3.0, fish
+5, 6.0, wine
+5, 10.0, egg
+5, 5.0, puri
+5, 8.0, egg, wine, beer,
+5, 4.0, dosa, uttapam, beer,
+5, 3.0, puri, dosa, idly,
+5, 5.0, beer, wine, egg, puri, idly,
+5, 8.0, egg, idly,
+5, 8.0, dosa, burger, beer, puri, egg,
+5, 7.0, burger, egg, fish, beer, dosa, wine, idly,
+5, 4.0, wine, dosa,
+5, 5.0, uttapam, idly, wine,
+5, 10.0, egg, burger, uttapam, omelette, puri, fish, wine,
+5, 4.0, beer, burger, egg,
+5, 4.0, fish, dosa, egg, burger, idly, beer, omelette,
+5, 6.0, wine, dosa, egg,
+5, 10.0, beer, fish, dosa, egg, idly, wine, puri,
+5, 7.0, egg, puri, beer, omelette, burger, uttapam,
+5, 6.0, fish, omelette, wine, egg, uttapam, puri, dosa, burger, beer,
+5, 10.0, dosa, idly, burger,
+5, 3.0, egg, omelette, wine, idly, beer, puri, uttapam, burger, dosa,
+5, 9.0, puri, omelette, beer, idly, wine,
+6, 8.0, wine
+6, 6.0, fish
+6, 8.0, puri
+6, 3.0, burger
+6, 4.0, egg
+6, 10.0, beer
+6, 4.0, beer, wine, dosa, idly,
+6, 8.0, burger, omelette,
+6, 7.0, puri, dosa, uttapam, burger, idly, egg, omelette,
+6, 7.0, omelette, beer, uttapam, wine, fish, egg, dosa, burger, idly, puri,
+6, 2.0, uttapam, omelette, beer,
+6, 8.0, egg, idly, omelette, burger, wine,
+6, 7.0, uttapam, fish, idly, beer,
+6, 9.0, wine, puri, fish, omelette, burger, dosa, beer, uttapam, idly,
+6, 2.0, uttapam, puri, egg, dosa,
+6, 2.0, egg, puri, omelette,
+6, 3.0, dosa, omelette, beer, idly, fish, burger,
+6, 8.0, egg, dosa, beer, burger, wine,
+6, 10.0, idly, beer, puri,
+6, 9.0, dosa, beer, egg, puri, idly,
+6, 5.0, beer, burger, puri,
+7, 10.0, fish
+7, 9.0, idly
+7, 8.0, puri
+7, 6.0, dosa
+7, 7.0, burger
+7, 4.0, beer
+7, 9.0, wine
+7, 3.0, egg
+7, 7.0, omelette
+7, 10.0, burger, beer, wine, egg, puri, omelette, idly, uttapam, fish,
+7, 9.0, wine, beer, burger, puri, uttapam,
+7, 8.0, burger, uttapam, wine, idly, beer,
+7, 10.0, puri, egg, uttapam, beer, idly, dosa, wine,
+7, 4.0, uttapam, omelette, wine, burger,
+7, 8.0, egg, burger, idly, dosa, uttapam,
+7, 10.0, egg, puri, dosa, idly, beer, fish,
+7, 9.0, uttapam, egg, wine, dosa,
+7, 8.0, egg, dosa, uttapam, burger, omelette,
+7, 5.0, omelette, idly, puri,
+7, 4.0, dosa, egg,
+7, 5.0, egg, puri, wine, burger,
+7, 4.0, wine, idly, egg, puri, fish, burger, omelette, dosa,
+7, 9.0, egg, beer, idly, omelette, dosa,
+7, 2.0, fish, idly, egg, wine, uttapam, dosa, beer, burger,
+7, 4.0, puri, uttapam,
+7, 4.0, egg, omelette, idly, dosa, fish, uttapam, puri, beer, burger, wine,
+7, 5.0, idly, beer, omelette, fish, burger, egg, dosa, wine,
+8, 6.0, beer
+8, 2.0, omelette
+8, 6.0, idly
+8, 2.0, wine
+8, 9.0, dosa
+8, 5.0, puri
+8, 4.0, burger
+8, 3.0, egg, beer, wine, fish, puri, burger, omelette, dosa, idly, uttapam,
+8, 10.0, beer, dosa, burger, uttapam, puri, egg, wine,
+8, 9.0, beer, omelette, uttapam, dosa, burger, puri, fish, idly,
+8, 6.0, egg, idly, puri, beer, omelette, burger,
+8, 5.0, uttapam, beer, fish,
+8, 7.0, puri, fish,
+8, 9.0, puri, egg, dosa, omelette, beer, uttapam,
+8, 4.0, burger, egg, puri, wine, omelette, beer, fish, uttapam,
+8, 3.0, uttapam, egg, puri, burger, beer, wine,
+8, 8.0, burger, fish, egg,
+8, 8.0, beer, uttapam, egg,
+8, 9.0, uttapam, dosa, egg, idly, burger, puri, wine,
+8, 5.0, idly, egg, dosa, omelette, beer, fish,
+8, 5.0, uttapam, omelette,
+8, 5.0, beer, puri, fish, dosa, omelette, wine, egg, uttapam, burger,
+8, 10.0, puri, omelette, burger,
+8, 9.0, puri, wine, uttapam, omelette, burger, egg, dosa,
+8, 8.0, fish, omelette, egg, beer, burger,
+8, 9.0, uttapam, wine, fish,
+8, 10.0, egg, wine, beer, omelette, puri, burger,
+8, 8.0, uttapam, omelette, dosa, idly,
+9, 6.0, puri
+9, 8.0, beer
+9, 8.0, egg
+9, 10.0, burger
+9, 7.0, fish
+9, 10.0, uttapam
+9, 9.0, omelette
+9, 10.0, fish, wine, uttapam, egg, idly, burger, dosa, omelette, puri,
+9, 5.0, omelette, wine, idly, burger, beer, fish, egg, uttapam, puri,
+9, 4.0, egg, fish, omelette, dosa, idly,
+9, 9.0, wine, puri, beer, dosa, burger, omelette,
+9, 10.0, puri, burger, dosa, idly, wine, beer,
+9, 10.0, wine, omelette,
+9, 8.0, wine, egg, burger, idly, omelette, beer, puri,
+9, 5.0, puri, omelette, egg, wine, burger, dosa, fish, idly,
+9, 7.0, beer, puri, dosa, egg, burger, idly, wine, omelette,
+9, 10.0, puri, omelette, wine, uttapam, fish, egg, burger,
+9, 3.0, egg, puri, burger, fish, beer, dosa, idly, uttapam,
+9, 8.0, beer, idly, egg, puri, wine,
+9, 8.0, wine, egg, beer,
+9, 2.0, uttapam, puri, burger, dosa, beer, idly, wine, omelette, egg, fish,
+9, 2.0, egg, beer, omelette, idly, fish, wine, dosa,
+9, 7.0, puri, burger, uttapam,
+9, 2.0, uttapam, omelette, fish,
+9, 8.0, beer, egg, burger, fish, omelette, uttapam, dosa, idly, wine,
+9, 7.0, fish, burger,
+9, 10.0, puri, idly, beer, omelette, uttapam,
+9, 5.0, idly, puri, uttapam, omelette, fish, beer, egg,
+9, 9.0, puri, omelette, beer, idly, egg, dosa,
+9, 10.0, burger, uttapam, puri, egg, omelette,
+9, 8.0, idly, burger, wine, beer, egg, puri, dosa,
+10, 3.0, dosa
+10, 3.0, egg
+10, 5.0, omelette
+10, 9.0, wine
+10, 7.0, idly
+10, 2.0, uttapam
+10, 2.0, beer
+10, 8.0, puri
+10, 8.0, dosa, wine, egg, beer, puri,
+10, 6.0, omelette, fish, puri,
+10, 8.0, beer, dosa, fish, idly, puri, uttapam,
+10, 10.0, dosa, puri,
+10, 5.0, idly, burger,
+10, 2.0, idly, dosa, fish, beer, egg, omelette, burger, uttapam, wine, puri,
+10, 10.0, beer, idly, dosa, egg, uttapam, omelette, burger, fish, puri,
+10, 4.0, burger, beer, uttapam,
+10, 5.0, beer, idly, uttapam, egg, burger, fish, puri, dosa,
+10, 9.0, omelette, egg, burger, idly, wine, puri,
+10, 6.0, omelette, burger, beer, puri,
+10, 9.0, burger, beer, fish, puri, uttapam, dosa,
+10, 10.0, wine, burger, dosa, omelette, uttapam, idly,

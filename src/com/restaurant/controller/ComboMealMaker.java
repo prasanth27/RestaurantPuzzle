@@ -32,7 +32,7 @@ public class ComboMealMaker {
 		
 		
 		public void run()  {
-			int numOfCombos = 1 << menu.size(); 
+			int numOfCombos = (int) Math.pow(2,menu.size() ); 
 			//System.out.println("hotel ="+Thread.currentThread().getName() + " Matching Items found = "+ menu.size()+" total combinations = "+numOfCombos);
 			LinkedList<Integer> indicesRemaining = new LinkedList<Integer>();
 			  for(int j =0 ; j<searchItems.size();j++ ){
@@ -88,7 +88,7 @@ public class ComboMealMaker {
 	}
 	
 	
-	public String getBestDeal(Map <Integer, Set<Meal>> hotelVsMealMap , List<String> sItems){
+	public String getBestDeal(Map <Integer, Set<Meal>> hotelVsMealMap , List<String> sItems,Map<Integer,Set<String>> itemsInHotelsMap ){
 		String result = "Nil";
 		this.searchItems = sItems;
 		this.hotelPrices = new  HashMap<Integer, Float>(sItems.size());
@@ -98,22 +98,25 @@ public class ComboMealMaker {
 		int count = 0;
 		while(itr.hasNext()){
 			Integer hotelID = itr.next();
-			List<Meal> hotelMenu = new ArrayList<Meal>(hotelVsMealMap.get(hotelID));
-			HotelMinPriceChecker hotel = new HotelMinPriceChecker(hotelMenu,hotelID);
-			workerThreads[count] = new Thread(hotel,"Hotel-"+hotelID);
-			workerThreads[count].start();
-			count ++;
-		}
-		
-		for(Thread t:workerThreads){
-			try {
-				t.join();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			if(itemsInHotelsMap.get(hotelID).containsAll(sItems)){
+				List<Meal> hotelMenu = new ArrayList<Meal>(hotelVsMealMap.get(hotelID));
+				HotelMinPriceChecker hotel = new HotelMinPriceChecker(hotelMenu,hotelID);
+				workerThreads[count] = new Thread(hotel,"Hotel-"+hotelID);
+				workerThreads[count].start();
+				count ++;
 			}
 		}
 		
+		for(Thread t:workerThreads){
+				if(null != t){
+					try {
+						t.join();
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+			}
+		}
 		int hotId=0 ;
 		float minprice = Float.MAX_VALUE;
 		Iterator<Integer> finalPrices = hotelPrices.keySet().iterator();

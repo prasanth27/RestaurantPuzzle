@@ -37,7 +37,7 @@ public class Meal {
 	public void addItemToMeal(String s){
 		if(items == null)
 			items = new HashSet<String>();
-		items.add(s.trim());
+		items.add(s);
 		
 	}
 	public int getHotelID() {
