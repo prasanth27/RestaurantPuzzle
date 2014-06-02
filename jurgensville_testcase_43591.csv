@@ -1,0 +1,158 @@
+1, 5.0, puri
+1, 4.0, burger
+1, 8.0, pasta
+1, 9.0, wine
+1, 3.0, pizza
+1, 10.0, pizza, uttapam, pasta, burger, fish,
+1, 9.0, pasta, burger, wine, fish, pizza,
+1, 10.0, wine, puri, pasta, pizza,
+1, 6.0, fish, uttapam,
+1, 2.0, fish, uttapam, pizza,
+1, 2.0, uttapam, wine, fish, pizza,
+1, 8.0, pasta, fish,
+1, 2.0, fish, puri, burger, wine, pizza,
+1, 8.0, uttapam, puri, fish, pasta, burger, pizza, wine,
+1, 8.0, burger, uttapam,
+1, 3.0, wine, pasta, fish, puri,
+1, 5.0, uttapam, wine, burger,
+2, 10.0, uttapam
+2, 2.0, fish
+2, 7.0, puri
+2, 2.0, pizza, puri, wine, fish,
+2, 6.0, pizza, pasta, fish, wine, burger, uttapam, puri,
+2, 6.0, pasta, wine, uttapam,
+2, 10.0, wine, pasta, burger, pizza, puri,
+2, 9.0, fish, pasta, burger,
+2, 8.0, pasta, burger, pizza, wine,
+2, 4.0, fish, uttapam, pizza, wine, puri,
+3, 4.0, puri
+3, 7.0, fish
+3, 5.0, pizza
+3, 6.0, puri, burger, uttapam, pizza, fish,
+3, 8.0, burger, uttapam, pasta, puri, pizza,
+3, 7.0, puri, uttapam,
+3, 5.0, burger, fish,
+3, 6.0, fish, uttapam, pasta, puri, burger, wine, pizza,
+3, 10.0, uttapam, pasta,
+3, 8.0, puri, uttapam, pizza, burger, fish, wine,
+3, 10.0, uttapam, pizza, burger, fish,
+3, 4.0, pizza, uttapam, pasta, wine,
+4, 7.0, uttapam
+4, 3.0, fish
+4, 5.0, wine
+4, 4.0, pizza
+4, 6.0, puri
+4, 5.0, pizza, puri, pasta,
+4, 4.0, burger, puri, fish,
+4, 5.0, uttapam, fish, pizza, pasta, burger, wine,
+4, 8.0, uttapam, pizza, wine, burger, pasta, fish, puri,
+4, 3.0, uttapam, wine, pizza, pasta, burger,
+4, 5.0, uttapam, fish, wine, pasta,
+4, 7.0, pizza, uttapam,
+4, 6.0, wine, uttapam, puri, burger,
+5, 7.0, pizza
+5, 4.0, wine
+5, 2.0, pasta
+5, 4.0, fish
+5, 9.0, puri
+5, 2.0, uttapam
+5, 5.0, burger
+5, 7.0, puri, burger, pizza, fish, uttapam, pasta,
+5, 4.0, pasta, wine,
+5, 9.0, wine, pizza,
+5, 7.0, uttapam, pizza,
+5, 10.0, pizza, fish, burger, pasta, uttapam, puri, wine,
+5, 2.0, pasta, fish, wine,
+5, 6.0, fish, pasta, wine, burger,
+5, 2.0, wine, burger,
+5, 10.0, fish, pizza, burger,
+5, 10.0, pasta, burger,
+5, 6.0, puri, burger, uttapam, pasta,
+5, 4.0, uttapam, pizza, fish, pasta, wine,
+5, 9.0, pasta, wine, fish, puri, burger,
+5, 6.0, fish, pasta, burger,
+5, 6.0, pizza, wine, pasta, puri,
+5, 3.0, puri, pasta,
+5, 8.0, uttapam, pasta,
+6, 9.0, fish
+6, 4.0, burger
+6, 2.0, wine
+6, 2.0, uttapam
+6, 8.0, pizza
+6, 6.0, pasta
+6, 8.0, puri
+6, 9.0, fish, uttapam, puri,
+6, 7.0, pizza, pasta, puri,
+6, 7.0, burger, pasta,
+6, 10.0, burger, puri, pasta,
+6, 2.0, wine, fish, burger, uttapam,
+6, 6.0, wine, uttapam, pizza, pasta, burger, fish, puri,
+6, 2.0, fish, uttapam, wine, puri,
+6, 9.0, fish, wine, burger, pasta, uttapam,
+6, 8.0, uttapam, pasta, fish, puri, pizza, wine,
+6, 9.0, puri, pizza,
+6, 7.0, burger, pasta, uttapam, wine, puri, pizza,
+6, 6.0, uttapam, puri, pasta, fish, burger,
+6, 6.0, pizza, wine, uttapam,
+7, 7.0, pasta
+7, 9.0, wine
+7, 6.0, uttapam
+7, 4.0, burger
+7, 10.0, puri
+7, 7.0, pizza
+7, 8.0, uttapam, fish, wine, pasta, puri, burger, pizza,
+7, 10.0, pasta, puri, uttapam, wine,
+7, 5.0, pizza, uttapam, pasta, fish,
+7, 10.0, uttapam, pizza,
+7, 5.0, puri, burger, uttapam, pizza,
+7, 2.0, pasta, uttapam, burger, wine, puri, fish,
+7, 8.0, puri, fish, wine,
+7, 6.0, burger, uttapam,
+7, 6.0, pizza, puri, fish, burger,
+7, 6.0, burger, fish, puri, wine,
+7, 6.0, fish, burger, wine,
+7, 7.0, pasta, wine, fish, puri, uttapam,
+7, 8.0, uttapam, puri, fish, pizza, wine, burger,
+7, 6.0, pasta, pizza,
+7, 9.0, pasta, puri, wine, burger, fish,
+8, 6.0, puri
+8, 10.0, burger
+8, 2.0, wine
+8, 9.0, uttapam
+8, 8.0, pizza, fish, burger, wine,
+8, 4.0, uttapam, fish, pizza, burger, pasta, puri,
+8, 4.0, pasta, burger, puri,
+8, 6.0, puri, uttapam,
+8, 4.0, wine, uttapam, pasta, burger, fish, puri,
+8, 4.0, pizza, fish,
+8, 10.0, fish, pizza, pasta, burger, uttapam, wine, puri,
+8, 4.0, fish, burger, puri,
+8, 10.0, uttapam, puri, burger, pasta, fish,
+9, 6.0, uttapam
+9, 10.0, burger
+9, 3.0, pasta
+9, 4.0, wine
+9, 10.0, burger, uttapam, pasta,
+9, 5.0, burger, pizza, wine, fish, puri, uttapam,
+9, 6.0, wine, pizza, uttapam, burger,
+9, 5.0, puri, pizza, uttapam,
+9, 3.0, wine, puri, pizza,
+9, 10.0, wine, puri, pizza, fish, burger,
+9, 6.0, puri, pizza, burger, uttapam, fish,
+9, 8.0, wine, fish, puri,
+9, 9.0, pizza, pasta, fish, burger, wine,
+9, 3.0, uttapam, fish, puri, burger, pizza, pasta, wine,
+9, 4.0, burger, pasta, fish, pizza,
+10, 8.0, pizza
+10, 2.0, puri
+10, 5.0, burger
+10, 6.0, fish
+10, 5.0, pasta
+10, 8.0, uttapam
+10, 4.0, fish, burger, uttapam, puri, wine, pizza,
+10, 2.0, wine, pasta, fish, uttapam, puri, pizza, burger,
+10, 9.0, wine, burger, fish,
+10, 2.0, wine, pasta,
+10, 8.0, uttapam, fish, puri, pasta,
+10, 4.0, uttapam, burger, pasta, puri,
+

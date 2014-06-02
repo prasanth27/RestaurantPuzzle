@@ -79,6 +79,14 @@ public class TestUtils {
 		execute(fileName,input,expected);
 	}
 	
+	public  void testCaseBig5_error(){
+		String fileName = "jurgensville_testcase_43591.csv ";
+		List<String> input = Arrays.asList(new String[]{"pasta","puri","burger"});
+		String expected = "10, 2.0";
+		
+		execute(fileName,input,expected);
+	}
+	
 	
 	@Test
 	public  void  test() {
@@ -89,10 +97,11 @@ public class TestUtils {
 		//testCase2();
 		//testCase3();
 		//testCase4();
+		testCaseBig5_error();
 		
 		// Big Files
 		//testCaseBig1();
-		testCaseBig2();
+		//testCaseBig2();
 		//testCaseBig3();
 		//testCaseBig4();
 	}
