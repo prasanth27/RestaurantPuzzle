@@ -98,7 +98,7 @@ public class ComboMealMaker {
 		int count = 0;
 		while(itr.hasNext()){
 			Integer hotelID = itr.next();
-			if(itemsInHotelsMap.get(hotelID).containsAll(sItems)){
+			if(itemsInHotelsMap.containsKey(hotelID) && itemsInHotelsMap.get(hotelID).containsAll(sItems)){
 				List<Meal> hotelMenu = new ArrayList<Meal>(hotelVsMealMap.get(hotelID));
 				HotelMinPriceChecker hotel = new HotelMinPriceChecker(hotelMenu,hotelID);
 				workerThreads[count] = new Thread(hotel,"Hotel-"+hotelID);
