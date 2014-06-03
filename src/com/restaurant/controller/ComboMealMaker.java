@@ -20,8 +20,8 @@ public class ComboMealMaker {
 	
 		private int hotelId ;	
 		private List<Meal> menu;
-		private boolean isItemFound = false;
 		private float minPrice = Float.MAX_VALUE; 
+		private List<Meal> happyPriceMenu;
 		
 		public HotelMinPriceChecker(List<Meal> menu , int hotelId) {
 			// TODO Auto-generated constructor stub
@@ -29,11 +29,34 @@ public class ComboMealMaker {
 			this.hotelId = hotelId;
 		}
 		
-		
+		private void filterHappyPriceMenu(){
+			LinkedList<Meal> tempMenu = new LinkedList<Meal>();
+			
+			for (Meal m1 : menu){
+					boolean isAddable = true;
+					Iterator <Meal> itr = tempMenu.iterator();
+					while(itr.hasNext()){
+						Meal m2 =itr.next();
+						if(m1.getItems().containsAll(m2.getItems())){
+							if(m1.getPrice() <= m2.getPrice()){
+								itr.remove();
+							}
+							isAddable =true;
+						}
+					}
+					
+					if(isAddable){
+						tempMenu.add(m1);
+					}
+			}
+			
+			happyPriceMenu = new ArrayList<Meal>(tempMenu);
+		}
 		
 		public void run()  {
-			int numOfCombos = (int) Math.pow(2,menu.size() ); 
-			//System.out.println("hotel ="+Thread.currentThread().getName() + " Matching Items found = "+ menu.size()+" total combinations = "+numOfCombos);
+			filterHappyPriceMenu();
+			int numOfCombos = (int) Math.pow(2,happyPriceMenu.size() ); 
+			//System.out.println("hotel ="+Thread.currentThread().getName() + " Actual Items found = "+ menu.size()+" happy meal items ="+happyPriceMenu.size()  + " total combinations = "+numOfCombos);
 			LinkedList<Integer> indicesRemaining = new LinkedList<Integer>();
 			  for(int j =0 ; j<searchItems.size();j++ ){
 				   indicesRemaining.add(j);
@@ -42,7 +65,7 @@ public class ComboMealMaker {
 			  
 			for(int i = 0; i < numOfCombos; i++) {
 				
-				 int pos = menu.size() - 1;
+				 int pos = happyPriceMenu.size() - 1;
 				 int bitmask = i;
 				 	 
 				   float price = 0;
@@ -50,7 +73,7 @@ public class ComboMealMaker {
 				   
 				   while(bitmask > 0)	 {
 						if((bitmask & 1) == 1){
-							Meal meal = menu.get(pos);
+							Meal meal = happyPriceMenu.get(pos);
 							price += meal.getPrice();
 							
 							if (indicesRemaining.size() > 0){
@@ -70,7 +93,6 @@ public class ComboMealMaker {
 				 
 				   if(indicesRemaining.size() == 0 && price <= minPrice){
 					   minPrice = price;
-					   isItemFound =true;
 				   }
 				   
 				   if(indicesRemaining.size() < indicesRemoved.size()){
@@ -81,9 +103,7 @@ public class ComboMealMaker {
 				   }
 			 }
 			 
-			 if(isItemFound){
-				 hotelPrices.put(hotelId, minPrice);
-			 }
+			hotelPrices.put(hotelId, minPrice);
 		}
 	}
 	

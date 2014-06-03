@@ -90,7 +90,7 @@ public class TestUtils {
 	public  void testCaseBig5_error(){
 		String fileName = "jurgensville_testcase_43591.csv ";
 		List<String> input = Arrays.asList(new String[]{"pasta","puri","burger"});
-		String expected = "10, 2.0";
+		String expected = "7, 2.0";
 		
 		execute(fileName,input,expected);
 	}
@@ -98,7 +98,7 @@ public class TestUtils {
 	public  void testCaseBig6_error(){
 		String fileName = "jurgensville_testcase_43591.csv ";
 		List<String> input = Arrays.asList(new String[]{"samosa","avakai","bondhi"});
-		String expected = "10, 2.0";
+		String expected = "Nil";
 		
 		execute(fileName,input,expected);
 	}
@@ -112,7 +112,7 @@ public class TestUtils {
 		//testCase1();
 		//testCase2();
 		//testCase3();
-		testCase4();
+		//testCase4();
 		//testCase5();
 		//testCaseBig5_error();
 		//testCaseBig6_error();
@@ -121,7 +121,7 @@ public class TestUtils {
 		//testCaseBig1();
 		//testCaseBig2();
 		//testCaseBig3();
-		//testCaseBig4();
+		testCaseBig4();
 	}
 	
 	public static void execute( String fileName, List<String> input, String expected){
