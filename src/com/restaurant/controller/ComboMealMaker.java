@@ -14,7 +14,7 @@ import com.restaurant.model.Meal;
 public class ComboMealMaker {
 	
 	private  List<String> searchItems; 
-	private HashMap<Integer, Float> hotelPrices ;
+	private ConcurrentHashMap<Integer, Float> hotelPrices ;
 	
 	private class HotelMinPriceChecker implements Runnable {
 	
@@ -42,6 +42,10 @@ public class ComboMealMaker {
 								itr.remove();
 							}
 							isAddable =true;
+						}else if (m2.getItems().containsAll(m1.getItems())){
+							if(m2.getPrice() <= m1.getPrice()){
+								isAddable = false;
+							}
 						}
 					}
 					
@@ -111,7 +115,7 @@ public class ComboMealMaker {
 	public String getBestDeal(Map <Integer, Set<Meal>> hotelVsMealMap , List<String> sItems,Map<Integer,Set<String>> itemsInHotelsMap ){
 		String result = "Nil";
 		this.searchItems = sItems;
-		this.hotelPrices = new  HashMap<Integer, Float>(sItems.size());
+		this.hotelPrices = new  ConcurrentHashMap<Integer, Float>(sItems.size());
 		
 		Thread workerThreads[] = new Thread[hotelVsMealMap.size()];
 		Iterator<Integer> itr = hotelVsMealMap.keySet().iterator();

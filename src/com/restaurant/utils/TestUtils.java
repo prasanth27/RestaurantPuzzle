@@ -14,8 +14,8 @@ public class TestUtils {
 	
 	public  static void testCase1(){
 		String fileName = "sample_data.csv";
-		List<String> input = Arrays.asList(new String[]{"burger","tofu_log"});
-		String expected = "2, 10.5";
+		List<String> input = Arrays.asList(new String[]{"burger"});
+		String expected = "2, 4.0";
 	
 		execute(fileName,input,expected);
 	}
@@ -50,7 +50,7 @@ public class TestUtils {
 	public  void testCaseBig1(){
 		String fileName = "jurgensville_testcase_83694.csv";
 		List<String> input = Arrays.asList(new String[]{"wada","chicken","dosa","wine"});
-		String expected = "1, 2.0";
+		String expected = "5, 2.0";
 		
 		execute(fileName,input,expected);
 	}
@@ -66,7 +66,7 @@ public class TestUtils {
 	public  void testCaseBig3(){
 		String fileName = "jurgensville_testcase_26638.csv";
 		List<String> input = Arrays.asList(new String[]{"uttapam","puri","chicken"});
-		String expected = "2, 2.0";
+		String expected = "9, 2.0";
 		
 		execute(fileName,input,expected);
 	}
@@ -74,7 +74,7 @@ public class TestUtils {
 	public  void testCaseBig4(){
 		String fileName = "jurgensville_testcase_81050.csv ";
 		List<String> input = Arrays.asList(new String[]{"uttapam","fish","beer","puri"});
-		String expected = "1, 2.0";
+		String expected = "9, 2.0";
 		
 		execute(fileName,input,expected);
 	}
@@ -109,18 +109,18 @@ public class TestUtils {
 		// TODO Auto-generated method stub
 		
 		//Small Files
-		//testCase1();
-		//testCase2();
-		//testCase3();
-		//testCase4();
-		//testCase5();
-		//testCaseBig5_error();
-		//testCaseBig6_error();
+		testCase1();
+		testCase2();
+		testCase3();
+		testCase4();
+		testCase5();
+		testCaseBig5_error();
+		testCaseBig6_error();
 		
 		// Big Files
-		//testCaseBig1();
-		//testCaseBig2();
-		//testCaseBig3();
+		testCaseBig1();
+		testCaseBig2();
+		testCaseBig3();
 		testCaseBig4();
 	}
 	
